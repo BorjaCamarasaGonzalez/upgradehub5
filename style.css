@@ -1,0 +1,207 @@
+a {
+    text-decoration: none;
+}
+
+/* Esta es la primera sección del header */
+.header--section1 {
+    display: flex;
+    width: 100%;
+    background-color: whitesmoke;
+    height: 90px;
+}
+
+.b-header-div-img {
+    width: 33%;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.b-info-logo {
+    width: 36%;
+    margin: 6px 6px 6px 72px;
+}
+
+.b-div-info-ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+}
+
+.b-info-ul {
+    display: flex;
+    width: 60%;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.b-info-ul-li {
+    list-style: none;
+}
+
+.b-info-ul-li-a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Esta es la segunda sección del header */
+.header--section2 {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.header--nav {
+    display: flex;
+    width: 100%;
+    height: 81px;
+    margin-right: 90px;
+    margin-left: 90px;
+}
+
+.header--nav--a {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    color: #747474;
+    text-transform: uppercase;
+    margin: 15px;
+}
+
+/* Aquí empieza el main */
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #EFEFEF;
+}
+
+.main--section1 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin-right: 90px;
+    margin-left: 96px;
+    flex-direction: row;
+}
+
+.main--section1--span {
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+}
+
+.main--section2 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: -2px;
+    margin-left: -39px
+}
+
+.main--section2--ul {
+    display: flex;
+    width: 100%;
+    height: 40px;
+    flex-direction: row;
+    margin-right: 90px;
+    margin-left: 90px;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+}
+
+.main--section2--ul--li {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    margin: 15px;
+    background-color: #67B500;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.main--section3 {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.main--section3--div {
+    display: flex;
+    width: 40;
+    height: 600px;
+    flex-direction: column;
+}
+
+.main--section3--div--img {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 300px;
+}
+
+.main--section3--div--img-h1 {
+    display: flex;
+    width: 100%;
+}
+
+.main--section3--div--img--div1 {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.main--section3--div--img--div1--span {
+    display: flex;
+    color: #A6A6A6;
+}
+
+.main--section3--div--img--div2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main--section3--div--img--div2--span {
+    display: flex;
+    color: #66B500;
+    font-size: 20px;
+    font-family: monospace;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.main--section3--div--img--div2--a {
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    color: #66B500;
+    font-size: 20px;
+    font-family: monospace;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.separador {
+    width: 100%;
+    height: 200px;
+
+}
+
+.main--section4 {
+    width: 100%;
+
+}
+
+.fa-solid .fa-plane .fa-solid .fa-hotel .fa-solid .a-person-cane .fa-solid .fa-heart .fa-solid .fa-wand-magic-sparkles {
+    width: 60px;
+    height: 12px;
+    display: flex;
+}
